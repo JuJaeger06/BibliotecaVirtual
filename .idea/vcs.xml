@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+<<<<<<< HEAD
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+=======
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BibliotecaVirtualDocker" vcs="Git" />
+>>>>>>> 0580faa516f74ba0483b033237dfc0b430e9d353
   </component>
 </project>
