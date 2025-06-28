@@ -20,7 +20,7 @@ public class ConectarBancoDados {
         String dbName = System.getenv("NAME") != null ? System.getenv("NAME") : "bibliotecaVirtual";
         String dbUser = System.getenv("USER") != null ? System.getenv("USER") : "postgres";
         // IMPORTANTE: Certifique-se de que você está lendo "PASSWORD" aqui, conforme definido em docker-compose.yml
-        String dbPass = System.getenv("PASSWORD") != null ? System.getenv("PASSWORD") : "TEznl41B*";
+        String dbPass = System.getenv("PASSWORD") != null ? System.getenv("PASSWORD") : "1234*";
 
         // Constrói a URL dinamicamente usando as variáveis de ambiente
         String url = "jdbc:postgresql://" + dbHost + ":" + dbPort + "/" + dbName;
