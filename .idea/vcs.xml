@@ -3,6 +3,12 @@
   <component name="VcsDirectoryMappings">
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    <mapping directory="" vcs="Git" />
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 =======
     <mapping directory="" vcs="Git" />
 =======
@@ -14,6 +20,10 @@
     <mapping directory="$PROJECT_DIR$/BibliotecaVirtualDocker" vcs="Git" />
 >>>>>>> 0580faa516f74ba0483b033237dfc0b430e9d353
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> 8aea1f99aaf4a5c38da0b264fbf3d9f1f32fa4b2
+>>>>>>> Stashed changes
 =======
 >>>>>>> 8aea1f99aaf4a5c38da0b264fbf3d9f1f32fa4b2
 >>>>>>> Stashed changes

@@ -1,6 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 # =================================================================
 # ESTÁGIO 1: Build da Aplicação com Maven
@@ -8,13 +11,19 @@
 =======
 
 >>>>>>> 8aea1f99aaf4a5c38da0b264fbf3d9f1f32fa4b2
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 FROM maven:3.9-eclipse-temurin-21 AS build
 
 WORKDIR /app
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 # --- MUDANÇA RECOMENDADA ---
 # Em vez de clonar do Git, copiamos os arquivos locais.
@@ -32,6 +41,9 @@ FROM quay.io/wildfly/wildfly:36.0.1.Final-jdk21
 # Copia o arquivo .war gerado no estágio anterior
 COPY --from=build /app/target/BibliotecaVirtual.war /opt/jboss/wildfly/standalone/deployments/
 =======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 RUN git clone https://github.com/JuJaeger06/BibliotecaVirtual.git .
 
@@ -42,6 +54,10 @@ FROM quay.io/wildfly/wildfly:36.0.1.Final-jdk21
 COPY --from=build /app/target/BibliotecaVirtual.war /opt/jboss/wildfly/standalone/deployments/
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> 8aea1f99aaf4a5c38da0b264fbf3d9f1f32fa4b2
+>>>>>>> Stashed changes
 =======
 >>>>>>> 8aea1f99aaf4a5c38da0b264fbf3d9f1f32fa4b2
 >>>>>>> Stashed changes

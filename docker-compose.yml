@@ -14,13 +14,19 @@ services:
       DB_NAME: bibliotecaVirtual
       DB_USER: postgres
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       DB_PASS: "1234*" # <-- MUDANÇA
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
       DB_PASS: "1234" # <-- MUDANÇA
 =======
       DB_PASS: "1234*" # <-- MUDANÇA
 >>>>>>> 8aea1f99aaf4a5c38da0b264fbf3d9f1f32fa4b2
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     depends_on:
       - db
