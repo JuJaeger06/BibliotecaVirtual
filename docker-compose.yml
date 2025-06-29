@@ -13,7 +13,15 @@ services:
       DB_HOST: db # <-- MUDANÇA (Usa o nome do serviço, não o container_name)
       DB_NAME: bibliotecaVirtual
       DB_USER: postgres
+<<<<<<< Updated upstream
       DB_PASS: "1234*" # <-- MUDANÇA
+=======
+<<<<<<< HEAD
+      DB_PASS: "1234" # <-- MUDANÇA
+=======
+      DB_PASS: "1234*" # <-- MUDANÇA
+>>>>>>> 8aea1f99aaf4a5c38da0b264fbf3d9f1f32fa4b2
+>>>>>>> Stashed changes
     depends_on:
       - db
     networks:
